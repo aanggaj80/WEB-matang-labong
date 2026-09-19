@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontak &amp; Peta — Desa Matang Labong</title>
+<meta name="description" content="Kontak dan rangkuman peta seluruh titik lokasi penting di Desa Matang Labong.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Mulish:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  .map-embed{ width:100%; height:340px; border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow); }
+  .map-embed iframe{ width:100%; height:100%; border:0; }
+  .loc-list{ display:flex; flex-direction:column; gap:10px; margin-top:20px; }
+  .loc-row{
+    display:flex; justify-content:space-between; align-items:center; gap:12px;
+    background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:14px 16px;
+  }
+  .loc-row .name{ font-weight:700; font-size:14px; }
+  .loc-row .cat{ font-family:var(--mono); font-size:10.5px; color:var(--muted); text-transform:uppercase; }
+</style>
+</head>
+<body>
+<div class="bg-texture" aria-hidden="true"></div>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <div class="brand"><span class="leaf">🌾</span> Desa Matang Labong</div>
+    <nav class="links" id="navLinks">
+      <a href="index.html">Beranda</a>
+      <a href="profil.html">Profil</a>
+      <a href="keindahan.html">Keindahan Alam</a>
+      <a href="fasilitas.html">Fasilitas &amp; Ibadah</a>
+      <a href="pendidikan.html">Pendidikan</a>
+      <a href="umkm.html">UMKM</a>
+      <a href="potensi.html">Potensi Desa</a>
+      <a href="kegiatan.html">Kegiatan</a>
+      <a href="berita.html">Berita</a>
+      <a href="aspirasi.html">Aspirasi</a>
+      <a href="aspirasi-terjawab.html">Aspirasi Terjawab</a>
+      <a href="kontak.html" class="active">Kontak &amp; Peta</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Buka menu">☰</button>
+  </div>
+</header>
+
+<section class="hero small" style="background-image:url('assets/gapura-sidang.jpg');">
+  <div class="hero-inner">
+    <div class="hero-kicker">Kontak &amp; Peta</div>
+    <h1>Semua titik lokasi dalam satu tempat</h1>
+  </div>
+</section>
+
+<section>
+  <div class="wrap reveal">
+    <div class="section-head">
+      <div class="eyebrow">// Lokasi desa</div>
+      <h2 class="title">Peta wilayah Desa Matang Labong</h2>
+    </div>
+    <div class="map-embed">
+      <iframe src="https://www.google.com/maps?q=Desa+Matang+Labong,+Kecamatan+Tebas,+Kabupaten+Sambas,+Kalimantan+Barat&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap reveal">
+    <div class="section-head">
+      <div class="eyebrow">// Daftar lokasi</div>
+      <h2 class="title">Semua tempat yang tercatat di situs ini</h2>
+      <p class="section-sub">Tiap baris bisa langsung diklik untuk dibuka di Google Maps.</p>
+    </div>
+    <div class="loc-list">
+      <a class="loc-row" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Kantor%20Desa%20Matang%20Labong%2C%20Kecamatan%20Tebas%2C%20Kabupaten%20Sambas%2C%20Kalimantan%20Barat">
+        <span class="name">Kantor Desa Matang Labong</span><span class="cat">Pemerintahan →</span>
+      </a>
+      <a class="loc-row" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Masjid%20Al%20Mukminin%20Thoriqul%20Jannah%2C%20Jl.%20Raya%20Sidang%20Senyawan%20No.%2025%2C%20Matang%20Labong%2C%20Kecamatan%20Tebas%2C%2079461">
+        <span class="name">Masjid Al Mukminin "Thoriqul Jannah"</span><span class="cat">Ibadah →</span>
+      </a>
+      <a class="loc-row" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Masjid%20Al-Ijtihad%2C%20Dusun%20Sidang%2C%20Desa%20Matang%20Labong%2C%20Kecamatan%20Tebas%2C%20Kabupaten%20Sambas">
+        <span class="name">Masjid Al-Ijtihad</span><span class="cat">Ibadah →</span>
+      </a>
+      <a class="loc-row" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=1.169570,109.125980">
+        <span class="name">Masjid Nurul Jannah</span><span class="cat">Ibadah →</span>
+      </a>
+      <a class="loc-row" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=1.169570,109.125980">
+        <span class="name">Masjid Al-Hikmah</span><span class="cat">Ibadah →</span>
+      </a>
+      <a class="loc-row" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=1.151567,109.124857">
+        <span class="name">Yayasan Pendidikan Islam Al-Hikmah</span><span class="cat">Pendidikan →</span>
+      </a>
+      <a class="loc-row" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=1.171726,109.126175">
+        <span class="name">Gerbang Dusun Sidang</span><span class="cat">Keindahan Alam →</span>
+      </a>
+      <a class="loc-row" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=1.172676,109.126222">
+        <span class="name">Jembatan Penghubung Desa</span><span class="cat">Keindahan Alam →</span>
+      </a>
+      <a class="loc-row" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=1.172848,109.126017">
+        <span class="name">Sungai Matang Labong</span><span class="cat">Keindahan Alam →</span>
+      </a>
+      <a class="loc-row" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=1.171574,109.128211">
+        <span class="name">Hamparan Sawah</span><span class="cat">Keindahan Alam →</span>
+      </a>
+      <a class="loc-row" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=1.152944,109.123612">
+        <span class="name">Warung Bakso &amp; Mie Ayam Muhammad Al-Faiz</span><span class="cat">UMKM →</span>
+      </a>
+      <a class="loc-row" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=1.154653,109.123657">
+        <span class="name">Warung Sayur Bakso Tawakal</span><span class="cat">UMKM →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="wrap reveal">
+    <div class="section-head">
+      <div class="eyebrow">// Kontak</div>
+      <h2 class="title">Hubungi Kantor Desa</h2>
+    </div>
+    <div class="signpost" style="max-width:520px;">
+      <span class="tag">Resmi</span>
+      <h3>Kantor Desa Matang Labong</h3>
+      <p>Jalan Dusun Sidang RT 005/RW 002, Desa Matang Labong, Kec. Tebas, Kab. Sambas.</p>
+      <p style="margin-top:10px;">📧 <a href="mailto:matanglabong@tebas.id">matanglabong@tebas.id</a></p>
+      <p>📞 <a href="tel:085347088499">0853-4708-8499</a> (Kepala Desa, Ir. Hidayat)</p>
+      <a class="maps-btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Kantor%20Desa%20Matang%20Labong%2C%20Kecamatan%20Tebas%2C%20Kabupaten%20Sambas%2C%20Kalimantan%20Barat">📍 Buka di Google Maps</a>
+    </div>
+    <div class="note-box">Email diambil dari situs resmi <em>matanglabong.tebas.id</em> (saat ini suspended, data via indeks pencarian). Nomor telepon bersumber dari Direktori Pemerintahan Kabupaten Sambas 2023. Sebaiknya dikonfirmasi ulang langsung ke kantor desa karena data ini tidak diambil dari sumber yang aktif secara real-time.</div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div>
+      <h4>Desa Matang Labong</h4>
+      <p>Kecamatan Tebas, Kabupaten Sambas, Kalimantan Barat 79461.</p>
+    </div>
+    <div>
+      <h4>Jelajahi</h4>
+      <p><a href="profil.html">Profil Desa</a><br><a href="keindahan.html">Keindahan Alam</a><br><a href="fasilitas.html">Fasilitas &amp; Ibadah</a></p>
+    </div>
+    <div>
+      <h4>Lainnya</h4>
+      <p><a href="pendidikan.html">Pendidikan</a><br><a href="umkm.html">UMKM &amp; Kuliner</a><br><a href="kegiatan.html">Kegiatan Warga</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">Situs profil tidak resmi Desa Matang Labong · Data: Kecamatan Tebas &amp; Wikipedia</div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
