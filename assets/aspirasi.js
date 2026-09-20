@@ -61,7 +61,6 @@
 const ASPIRASI_SHEET_ID = '1eP-ZdWYsu3sFUCwNhureog4_S1X55Tnd3Fib_TiGa-k';
 const ASPIRASI_SHEET_NAME = 'Form Responses 1';
 
-const ASPIRASI_CSV_URL = `https://docs.google.com/spreadsheets/d/${ASPIRASI_SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(ASPIRASI_SHEET_NAME)}`;
 
 const ASPIRASI_DEMO = [
   {
