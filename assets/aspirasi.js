@@ -142,7 +142,7 @@ async function loadAspirasi(){
     ? 'Belum ada aspirasi yang sudah ditanggapi.'
     : 'Belum ada aspirasi yang ditampilkan.';
 
-  if(ASPIRASI_SHEET_ID === 'GANTI_DENGAN_SHEET_ID_KAMU'){
+  if(ASPIRASI_SHEET_ID === 'https://docs.google.com/spreadsheets/d/1QLTCe8BuyisnJR82NSkue6NbU2NQQAG7V_NJ6qdH-2k/edit?usp=drivesdk'){
     renderAspirasi(ASPIRASI_DEMO, listTargetId, emptyMsg, mode);
     return;
   }
