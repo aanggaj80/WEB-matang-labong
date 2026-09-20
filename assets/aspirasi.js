@@ -142,7 +142,7 @@ async function loadAspirasi(){
     ? 'Belum ada aspirasi yang sudah ditanggapi.'
     : 'Belum ada aspirasi yang ditampilkan.';
 
-  if(ASPIRASI_SHEET_ID === 'https://docs.google.com/spreadsheets/d/1QLTCe8BuyisnJR82NSkue6NbU2NQQAG7V_NJ6qdH-2k/edit?usp=drivesdk'){
+  const ASPIRASI_SHEET_ID = '1eP-ZdWYsu3sFUCwNhureog4_S1X55Tnd3Fib_TiGa-k';
     renderAspirasi(ASPIRASI_DEMO, listTargetId, emptyMsg, mode);
     return;
   }
