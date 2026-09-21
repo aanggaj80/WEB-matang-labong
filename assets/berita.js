@@ -87,7 +87,7 @@ function escapeHtml(str){
 }
 
 async function loadNews(){
-  if(SHEET_ID === 'GANTI_DENGAN_SHEET_ID_KAMU' || !SHEET_ID){
+  if(SHEET_ID === 'https://docs.google.com/spreadsheets/d/1Xcd9PMM83a16NNPBeRWPY5RD6A9B8_mfLVmuQPWKqTM/edit?usp=drivesdk' || !SHEET_ID){
     renderNews(DEMO_DATA);
     return;
   }
