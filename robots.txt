@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aanggaj80.github.io/WEB-matang-labong/sitemap.xml
